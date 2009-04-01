@@ -1,0 +1,11 @@
+!main_width = 10
+!unit1 = em
+!unit2 = px
+
+#main
+  p.foo
+    :width = !main_width + !unit1
+  p.bar
+    :width = (!main_width + 15) + !unit2
+  p.baz
+    :width = (!main_width / 5) + px
